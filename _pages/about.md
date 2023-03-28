@@ -2,16 +2,16 @@
 permalink: /
 author_profile: true
 image: ../images/photo.jpeg
-title: Privacy and Security in ML Seminars
+title: Cloud-Edge Storage Reading Group
 ---
 
-<br>This is the homepage of the **Privacy & Security in Machine Learning (PriSec-ML) Interest Group**. It brings together researchers and practitioners around the world broadly interested in this topic.  
+<br>This is the homepage of the **Cloud-Edge Storage Reading Group**. It brings together researchers and practitioners around the world broadly interested in this topic.  
 
 ### Get Involved
-- Subscribe to our **[mailing list](https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=PRISEC-ML&A=1)** to receive to seminar, jobs, and event announcements
-- Join our **[Slack](https://join.slack.com/t/prisec-ml/shared_invite/zt-1qgwctq50-S~UfQtbldiuuwXX45D86LQ)**
-- Follow us on **[Twitter](https://twitter.com/prisec_ml)**
-- Subscribe to our **[YouTube channel](https://youtube.com/@prisec-ml)** where we live stream and keep recordings of the talks
+- Subscribe to our **[mailing list]()** to receive to seminar, jobs, and event announcements
+- Join our **[Slack]()**
+- Follow us on **[Twitter]()**
+- Subscribe to our **[YouTube channel]()** where we live stream and keep recordings of the talks
 
 
 ### Upcoming Seminars

@@ -7,14 +7,14 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Privacy and Security in ML"
+title                    : "Cloud-Edge Storage Reading Group"
 title_separator          : "-"
 title_image              : /images/photo.jpeg
 name                     : &name "PriSec-ML"
 description              : &description ""
 url                      : https://prisec-ml.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "prisec-ml/prisec-ml.github.io"
+repository               : "J-StrawHat/Cloud-Edge-Storage-reading-group"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -80,7 +80,7 @@ author:
   name             : ""
   avatar           : "photo.jpeg"
   bio              : ""
-  location         : "Planet Earth"
+  location         : "XMU & UESTC"
   employer         : 
   googlescholar    : 
   email            : 
@@ -91,7 +91,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "J-StrawHat/Cloud-Edge-Storage-reading-group"
   google_plus      :
   keybase          :
   instagram        : 
@@ -103,11 +103,11 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "prisec_ml"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
-  youtube  : "PrivacyandMachineLearningInterestGroup"
+  youtube          : 
   wikipedia        :
 
 
@@ -130,6 +130,10 @@ exclude:
   - CHANGELOG
   - config
   - Gemfile
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
   - Gruntfile.js
   - gulpfile.js
   - LICENSE

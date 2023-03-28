@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://prisec-ml.github.io/portfolio/portfolio-1/</loc>
-<lastmod>2021-09-22T01:50:48-07:00</lastmod>
+<loc>http://localhost:4000/portfolio/portfolio-1/</loc>
+<lastmod>2023-03-27T20:25:17-07:00</lastmod>
 </url>
 <url>
-<loc>https://prisec-ml.github.io/portfolio/portfolio-2/</loc>
-<lastmod>2021-09-22T01:50:48-07:00</lastmod>
+<loc>http://localhost:4000/portfolio/portfolio-2/</loc>
+<lastmod>2023-03-27T20:25:17-07:00</lastmod>
 </url>
 <url>
-<loc>https://prisec-ml.github.io/posts/2012/08/blog-post-4/</loc>
+<loc>http://localhost:4000/posts/2012/08/blog-post-4/</loc>
 <lastmod>2018-03-25T00:00:00-07:00</lastmod>
 </url>
 <url>
-<loc>https://prisec-ml.github.io/</loc>
+<loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>https://prisec-ml.github.io/markdown_generator/</loc>
+<loc>http://localhost:4000/students_ecrs/</loc>
 </url>
 <url>
-<loc>https://prisec-ml.github.io/talkmap/map.html</loc>
-<lastmod>2021-05-07T08:53:22-07:00</lastmod>
+<loc>http://localhost:4000/markdown_generator/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/talkmap/map.html</loc>
+<lastmod>2023-03-27T20:04:32-07:00</lastmod>
 </url>
 </urlset>
