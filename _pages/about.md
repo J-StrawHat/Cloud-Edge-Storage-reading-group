@@ -39,21 +39,14 @@ Yuhui Chen (XMU) <br>
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/Dn_NkH-IEVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
 ### Organizers
-<img src="../images/yang.jpg" style="float:right;width:100px;height:100px;margin-top:00px">
-- **Dr. Yang Zhang**  
-Faculty Member<br>
-CISPA Helmholtz Center for Information Security<br>
-[https://yangzhangalmo.github.io](https://yangzhangalmo.github.io)<br>
 
-<img src="../images/lorenzo.jpg" style="float:right;width:100px;height:100px;margin-top:00px">
-- **Prof. Lorenzo Cavallaro**  
-Professor of Computer Science, <em>Leader of the <a href="https://s2lab.cs.ucl.ac.uk">Systems Security Research Lab</a></em><br>
-University College London (UCL)<br>
-[https://s2lab.cs.ucl.ac.uk/people/sullivan](https://s2lab.cs.ucl.ac.uk/people/sullivan)<br>
+<span style="background-image:url('../images/tl.jpg');background-size: cover; float:right;width:80px;height:100px;margin-top:00px"></span>
+- **Lu Tang**  
+Assistant Professor of Department of Computer Science and Technology<br>
+Xiamen University (XMU)<br> <details> **Bio:** Lu Tang is now an Assistant Professor at Department of Computer Science and Technology, Xiamen University. She was a postdoctoral researcher at the Chinese University of Hong Kong of Computer Science and Engineering from October 2020 to February 2021. She received her Ph.D. degree in computer science and engineering from the Chinese University of Hong Kong in 2020, the M.A. degree in computer science and technology from Xiamen University in 2016, and the B.A. degree in network engineering from Tianjin Polytechnic University in 2013. Her research interests include network measurement, anomaly detection, data stream processing, enterprise and data center networks.<br> **Homepage:** [https://grace-tl.github.io/](https://grace-tl.github.io/)</details>
+<br>
 
-<img src="../images/emiliano.jpg" style="float:right;width:100px;height:100px;margin-top:00px">
-- **Prof. Emiliano De Cristofaro** (until August 2022)  
-Professor of Security and Privacy Enhancing Technologies<br>
-University College London (UCL)<br>
-[https://emilianodc.com/](https://emilianodc.com/)<br>
-
+<span style="background-image:url('../images/ljw.jpg');background-size: cover;background-position-y: -20px; float:right;width:80px;height:90px;margin-top:00px"></span>
+- **Jingwei Li**  
+Associate Professor of School of Computer Science and Engineering<br>
+ University of Electronic Science and Technology of China (UESTC)<br> <details> **Bio:** Jingwei Li is an associate professor of the School of Computer Science and Engineering at the University of Electronic Science and Technology of China (UESTC). He joined UESTC in 2016. Before that, He was a postdoctoral researcher working with Professor Patrick P. C. Lee at the Chinese University of Hong Kong. During 2013 to 2014, he was a visiting scholar working with Prof. Anna Squicciarini at the Pennsylvania State University. He obtained the B.S. from Hebei University of Technology in 2009 and the Ph.D. from Nankai University in 2014, respectively.<br> **Homepage:** [https://jingwei87.github.io/](https://jingwei87.github.io/)</details>
