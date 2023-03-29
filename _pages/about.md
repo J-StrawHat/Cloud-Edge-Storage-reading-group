@@ -17,14 +17,14 @@ title: Cloud-Edge Storage Reading Group
 ### Upcoming Seminars
 
 
-- 29th March 2023, 8:30pm (CET)  
+- 29th March 2023, 8:00pm (CST)  
 Jingyuan Yang (UESTC) <br>
 **Data Domain Cloud Tier: Backup here, backup there, deduplicated everywhere!** <details>**Conference:** ATC ’19 <br>
 **Abstract:** Data Domain has added a cloud tier capability to its onpremises storage appliance, allowing clients to achieve the cost benefits of deduplication in the cloud. While there were many architectural changes necessary to support a cloud tier in a mature storage product, in this paper, we focus on innovations needed to support key functionality for customers. Consider typical customer interactions: First, a customer determines which files to migrate to the cloud by estimating how much space will be freed on the on-premises Data Domain appliance. Second, a customer transfers selected files to the cloud and later restores files back. Finally, a customer deletes a file in the cloud when its retention period has expired. Each of these operations requires significant architectural changes and new algorithms to address both the impact of deduplicated storage and the latency and expense of cloud object storage. We also present analysis from deployed cloud tier systems. As an example, some customers have moved more than 20PB of logical data to the cloud tier and achieved a total compression factor (deduplication * local compression) of 40× or more, resulting in millions of dollars of cost savings. <br>
 **Link:** [https://www.usenix.org/conference/atc19/presentation/duggal](https://www.usenix.org/conference/atc19/presentation/duggal) </details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
-- TBD April 2023, 8:30pm (CET)  
+- TBD April 2023, 8:00pm (CST)  
 Yuhui Chen (XMU) <br>
 **TBD**  <details>**Conference:**  <br>
 **Abstract:**  <br>
