@@ -23,7 +23,7 @@ Yuhui Chen (XMU) <br>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 12th April 2023, 8:00pm (CST)  
-Fang Zhou (UESTC) <br>
+Fang Zou (UESTC) <br>
 **TBD**  <details>**Conference:**  <br>
 **Abstract:**  <br>
 **Link:** []() </details>
@@ -47,12 +47,12 @@ Jingyuan Yang (UESTC) <br>
 
 <span style="background-image:url('../images/ljw.jpg');background-size: cover;background-position-y: -20px; float:right;width:80px;height:90px;margin-top:00px"></span>
 - **Jingwei Li**  
-Associate Professor of [School of Computer Science and Engineering](https://www.scse.uestc.edu.cn/)<br>
- [University of Electronic Science and Technology of China (UESTC)](https://www.uestc.edu.cn/)<br> <details> **Bio:** Jingwei Li is an associate professor of the School of Computer Science and Engineering at the University of Electronic Science and Technology of China (UESTC). He joined UESTC in 2016. Before that, He was a postdoctoral researcher working with Professor Patrick P. C. Lee at the Chinese University of Hong Kong. During 2013 to 2014, he was a visiting scholar working with Prof. Anna Squicciarini at the Pennsylvania State University. He obtained the B.S. from Hebei University of Technology in 2009 and the Ph.D. from Nankai University in 2014, respectively.<br> **Homepage:** [https://jingwei87.github.io/](https://jingwei87.github.io/)</details>
+Researcher of [School of Computer Science and Engineering](https://www.scse.uestc.edu.cn/)<br>
+ University of Electronic Science and Technology of China (UESTC)<br> [https://jingwei87.github.io/](https://jingwei87.github.io/)
 
 <span style="background-image:url('../images/tl.jpg');background-size: cover; float:right;width:80px;height:100px;margin-top:00px"></span>
 - **Lu Tang**  
-Assistant Professor of [Department of Computer Science and Technology](https://cs.xmu.edu.cn/index.htm)<br>
-[Xiamen University (XMU)](https://www.xmu.edu.cn/)<br> <details> **Bio:** Lu Tang is now an Assistant Professor at Department of Computer Science and Technology, Xiamen University. She was a postdoctoral researcher at the Chinese University of Hong Kong of Computer Science and Engineering from October 2020 to February 2021. She received her Ph.D. degree in computer science and engineering from the Chinese University of Hong Kong in 2020, the M.A. degree in computer science and technology from Xiamen University in 2016, and the B.A. degree in network engineering from Tianjin Polytechnic University in 2013. Her research interests include network measurement, anomaly detection, data stream processing, enterprise and data center networks.<br> **Homepage:** [https://grace-tl.github.io/](https://grace-tl.github.io/)</details>
-<br>
+Assistant Professor of [Department of Computer Science and Technology](https://cs.xmu.edu.cn/index.htm)<br>Xiamen University (XMU)<br>
+[https://grace-tl.github.io/](https://grace-tl.github.io/)
+
 
