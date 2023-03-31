@@ -17,11 +17,19 @@ title: Cloud-Edge Storage Reading Group
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 5th April 2023, 8:00pm (CST)  
 Yuhui Chen (XMU) <br>
+**InftyDedup: Scalable and Cost-Effective Cloud Tiering with Deduplication**  <details>**Conference:**  FAST ’23<br>
+**Abstract:** Cloud tiering is the process of moving selected data from on-premise storage to the cloud, which has recently become important for backup solutions. As subsequent backups usually contain repeating data, deduplication in cloud tiering can significantly reduce cloud storage utilization, and hence costs.<br>In this paper, we introduce InftyDedup, a novel system for cloud tiering with deduplication. Unlike existing solutions, it maximizes scalability by utilizing cloud services not only for storage but also for computation. Following a distributed batch approach with dynamically assigned cloud computation resources, InftyDedup can deduplicate multi-petabyte backups from multiple sources at costs on the order of a couple of dollars. Moreover, by selecting between hot and cold cloud storage based on the characteristics of each data chunk, our solution further reduces the overall costs by up to 26%–44%. InftyDedup is implemented in a state-of-the-art commercial backup system and evaluated in the cloud of a hyperscaler. <br>
+**Link:** [https://www.usenix.org/conference/fast23/presentation/kotlarska](https://www.usenix.org/conference/fast23/presentation/kotlarska) </details>
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 12th April 2023, 8:00pm (CST)  
+Fang Zhou (UESTC) <br>
 **TBD**  <details>**Conference:**  <br>
 **Abstract:**  <br>
 **Link:** []() </details>
 
-<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+
+
 
 ### Past Seminars
 
