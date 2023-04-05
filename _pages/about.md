@@ -13,6 +13,21 @@ title: Cloud-Edge Storage Reading Group
 
 ### Upcoming Seminars
 
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 12th April 2023, 8:00pm (CST)  
+Fang Zou (UESTC) <br>
+**HotDedup: Managing Hot Data Storage at Network Edge through Optimal Distributed Deduplication**  <details>**Conference:**  INFOCOM ’20<br>
+**Abstract:** The rapid growth of computing capabilities at network edge calls for efficient management frameworks that not only considers placing hot data on edge storage for best accessibility and performance, but also makes optimal utilization of edge storage space. In this paper, we solve a joint optimization problem by exploiting both data popularity (for optimal data access performance) and data similarity (for optimal storage space efficiency). We show that the proposed optimization is NP- hard and develop a 2⌈2Γ⌉ - 1 + ϵ-approximation algorithm by (i) making novel use of δ-similarity graph to capture pairwise data similarity and (ii) leveraging the k-MST algorithm to solve a Prize Collecting Steiner Tree problem on the graph. The proposed algorithm is prototyped using an open-source distributed storage system, Cassandra. We evaluate its performance extensively on a real-world testbed and with respect to real-world IoT datasets. The algorithm is shown to achieve over 55% higher edge service rate and reduces request response time by about 30%. <br>
+**Link:** [https://ieeexplore.ieee.org/abstract/document/9155233/](https://ieeexplore.ieee.org/abstract/document/9155233/) </details>
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 19th April 2023, 8:00pm (CST)  
+Wenxi Zhu (XMU) <br>
+**TBD**  <details>**Conference:**  <br>
+**Abstract:** <br>
+**Link:** []() </details>
+
+### Past Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 5th April 2023, 8:00pm (CST)  
@@ -22,17 +37,6 @@ Yuhui Chen (XMU) <br>
 **Link:** [https://www.usenix.org/conference/fast23/presentation/kotlarska](https://www.usenix.org/conference/fast23/presentation/kotlarska) </details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
-- 12th April 2023, 8:00pm (CST)  
-Fang Zou (UESTC) <br>
-**TBD**  <details>**Conference:**  <br>
-**Abstract:**  <br>
-**Link:** []() </details>
-
-
-
-
-### Past Seminars
-
 - 29th March 2023, 8:00pm (CST)  
 Jingyuan Yang (UESTC) <br>
 **Data Domain Cloud Tier: Backup here, backup there, deduplicated everywhere!** <details>**Conference:** ATC ’19 <br>
