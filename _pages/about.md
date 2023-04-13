@@ -14,20 +14,28 @@ title: Cloud-Edge Storage Reading Group
 ### Upcoming Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
-- 12th April 2023, 8:00pm (CST)  
-Fang Zou (UESTC) <br>
-**HotDedup: Managing Hot Data Storage at Network Edge through Optimal Distributed Deduplication**  <details>**Conference:**  INFOCOM ’20<br>
-**Abstract:** The rapid growth of computing capabilities at network edge calls for efficient management frameworks that not only considers placing hot data on edge storage for best accessibility and performance, but also makes optimal utilization of edge storage space. In this paper, we solve a joint optimization problem by exploiting both data popularity (for optimal data access performance) and data similarity (for optimal storage space efficiency). We show that the proposed optimization is NP- hard and develop a 2⌈2Γ⌉ - 1 + ϵ-approximation algorithm by (i) making novel use of δ-similarity graph to capture pairwise data similarity and (ii) leveraging the k-MST algorithm to solve a Prize Collecting Steiner Tree problem on the graph. The proposed algorithm is prototyped using an open-source distributed storage system, Cassandra. We evaluate its performance extensively on a real-world testbed and with respect to real-world IoT datasets. The algorithm is shown to achieve over 55% higher edge service rate and reduces request response time by about 30%. <br>
-**Link:** [https://ieeexplore.ieee.org/abstract/document/9155233/](https://ieeexplore.ieee.org/abstract/document/9155233/) </details>
-
-<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 19th April 2023, 8:00pm (CST)  
 Wenxi Zhu (XMU) <br>
+**StreamBox-TZ: Secure Stream Analytics at the Edge with TrustZone**  <details>**Conference:** ATC ’19<br>
+**Abstract:** While it is compelling to process large streams of IoT data on the cloud edge, doing so exposes the data to a sophisticated, vulnerable software stack on the edge and hence security threats. To this end, we advocate isolating the data and its computations in a trusted execution environment (TEE) on the edge, shielding them from the remaining edge software stack which we deem untrusted.<br>This approach faces two major challenges: (1) executing high-throughput, low-delay stream analytics in a single TEE, which is constrained by a low trusted computing base (TCB) and limited physical memory; (2) verifying execution of stream analytics as the execution involves untrusted software components on the edge. In response, we present StreamBox-TZ (SBT), a stream analytics engine for an edge platform that offers strong data security, verifiable results, and good performance. SBT contributes a data plane designed and optimized for a TEE based on ARM TrustZone. It supports continuous remote attestation for analytics correctness and result freshness while incurring low overhead. SBT only adds 42.5 KB executable to the TCB (16% of the entire TCB). On an octa core ARMv8 platform, it delivers the state-of-the-art performance by processing input events up to 140 MB/sec (12M events/sec) with sub-second delay. The overhead incurred by SBT’s security mechanism is less than 25%.<br>
+**Link:** [https://www.usenix.org/conference/atc19/presentation/park-heejin](https://www.usenix.org/conference/atc19/presentation/park-heejin) </details>
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 26th April 2023, 8:00pm (CST)  
+Jingyuan Yang (UESTC) <br>
 **TBD**  <details>**Conference:**  <br>
 **Abstract:** <br>
 **Link:** []() </details>
 
 ### Past Seminars
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 12th April 2023, 8:00pm (CST)  
+Fang Zou (UESTC) <br>
+**HotDedup: Managing Hot Data Storage at Network Edge through Optimal Distributed Deduplication**  <details>**Conference:**  INFOCOM ’20<br>
+**Abstract:** The rapid growth of computing capabilities at network edge calls for efficient management frameworks that not only considers placing hot data on edge storage for best accessibility and performance, but also makes optimal utilization of edge storage space. In this paper, we solve a joint optimization problem by exploiting both data popularity (for optimal data access performance) and data similarity (for optimal storage space efficiency). We show that the proposed optimization is NP- hard and develop a 2⌈2Γ⌉ - 1 + ϵ-approximation algorithm by (i) making novel use of δ-similarity graph to capture pairwise data similarity and (ii) leveraging the k-MST algorithm to solve a Prize Collecting Steiner Tree problem on the graph. The proposed algorithm is prototyped using an open-source distributed storage system, Cassandra. We evaluate its performance extensively on a real-world testbed and with respect to real-world IoT datasets. The algorithm is shown to achieve over 55% higher edge service rate and reduces request response time by about 30%. <br>
+**Link:** [https://ieeexplore.ieee.org/abstract/document/9155233/](https://ieeexplore.ieee.org/abstract/document/9155233/) <br> 
+**Presentation Slides:** [pdf](../files/HotDedup.pdf)</details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 5th April 2023, 8:00pm (CST)  
