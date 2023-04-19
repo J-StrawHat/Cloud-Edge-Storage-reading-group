@@ -14,20 +14,28 @@ title: Cloud-Edge Storage Reading Group
 ### Upcoming Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
-- 19th April 2023, 8:00pm (CST)  
-Wenxi Zhu (XMU) <br>
-**StreamBox-TZ: Secure Stream Analytics at the Edge with TrustZone**  <details>**Conference:** ATC ’19<br>
-**Abstract:** While it is compelling to process large streams of IoT data on the cloud edge, doing so exposes the data to a sophisticated, vulnerable software stack on the edge and hence security threats. To this end, we advocate isolating the data and its computations in a trusted execution environment (TEE) on the edge, shielding them from the remaining edge software stack which we deem untrusted.<br>This approach faces two major challenges: (1) executing high-throughput, low-delay stream analytics in a single TEE, which is constrained by a low trusted computing base (TCB) and limited physical memory; (2) verifying execution of stream analytics as the execution involves untrusted software components on the edge. In response, we present StreamBox-TZ (SBT), a stream analytics engine for an edge platform that offers strong data security, verifiable results, and good performance. SBT contributes a data plane designed and optimized for a TEE based on ARM TrustZone. It supports continuous remote attestation for analytics correctness and result freshness while incurring low overhead. SBT only adds 42.5 KB executable to the TCB (16% of the entire TCB). On an octa core ARMv8 platform, it delivers the state-of-the-art performance by processing input events up to 140 MB/sec (12M events/sec) with sub-second delay. The overhead incurred by SBT’s security mechanism is less than 25%.<br>
-**Link:** [https://www.usenix.org/conference/atc19/presentation/park-heejin](https://www.usenix.org/conference/atc19/presentation/park-heejin) </details>
-
-<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 26th April 2023, 8:00pm (CST)  
 Jingyuan Yang (UESTC) <br>
+**Lock-Free Collaboration Support for Cloud Storage Services with Operation Inference and Transformation**  <details>**Conference:**  FAST ’20<br>
+**Abstract:** This paper studies how today’s cloud storage services support collaborative file editing. As a tradeoff for transparency/user-friendliness, they do not ask collaborators to use version control systems but instead implement their own heuristics for handling conflicts, which however often lead to unexpected and undesired experiences. With measurements and reverse engineering, we unravel a number of their design and implementation issues as the root causes of poor experiences. Driven by the findings, we propose to reconsider the collaboration support of cloud storage services from a novel perspective of operations without using any locks. To enable this idea, we design intelligent approaches to the inference and transformation of users’ editing operations, as well as optimizations to the maintenance of files’ historic versions. We build an open-source system UFC2 (User-Friendly Collaborative Cloud) to embody our design, which can avoid most (98%) conflicts with little (2%) time overhead. <br>
+**Link:** [https://www.usenix.org/conference/fast20/presentation/chen](https://www.usenix.org/conference/fast20/presentation/chen) </details>
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 3rd May 2023, 8:00pm (CST)  
+Yuhui Chen (XMU) <br>
 **TBD**  <details>**Conference:**  <br>
 **Abstract:** <br>
 **Link:** []() </details>
 
 ### Past Seminars
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 19th April 2023, 8:00pm (CST)  
+Wenxi Zhu (XMU) <br>
+**StreamBox-TZ: Secure Stream Analytics at the Edge with TrustZone**  <details>**Conference:** ATC ’19<br>
+**Abstract:** While it is compelling to process large streams of IoT data on the cloud edge, doing so exposes the data to a sophisticated, vulnerable software stack on the edge and hence security threats. To this end, we advocate isolating the data and its computations in a trusted execution environment (TEE) on the edge, shielding them from the remaining edge software stack which we deem untrusted.<br>This approach faces two major challenges: (1) executing high-throughput, low-delay stream analytics in a single TEE, which is constrained by a low trusted computing base (TCB) and limited physical memory; (2) verifying execution of stream analytics as the execution involves untrusted software components on the edge. In response, we present StreamBox-TZ (SBT), a stream analytics engine for an edge platform that offers strong data security, verifiable results, and good performance. SBT contributes a data plane designed and optimized for a TEE based on ARM TrustZone. It supports continuous remote attestation for analytics correctness and result freshness while incurring low overhead. SBT only adds 42.5 KB executable to the TCB (16% of the entire TCB). On an octa core ARMv8 platform, it delivers the state-of-the-art performance by processing input events up to 140 MB/sec (12M events/sec) with sub-second delay. The overhead incurred by SBT’s security mechanism is less than 25%.<br>
+**Link:** [https://www.usenix.org/conference/atc19/presentation/park-heejin](https://www.usenix.org/conference/atc19/presentation/park-heejin) <br> 
+**Presentation Slides:** [pdf](../files/SBT.pdf)</details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 12th April 2023, 8:00pm (CST)  
