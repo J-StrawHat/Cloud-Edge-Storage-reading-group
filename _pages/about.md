@@ -35,7 +35,7 @@ Jingyuan Yang (UESTC) <br>
 **Lock-Free Collaboration Support for Cloud Storage Services with Operation Inference and Transformation**  <details>**Conference:**  FAST ’20<br>
 **Abstract:** This paper studies how today’s cloud storage services support collaborative file editing. As a tradeoff for transparency/user-friendliness, they do not ask collaborators to use version control systems but instead implement their own heuristics for handling conflicts, which however often lead to unexpected and undesired experiences. With measurements and reverse engineering, we unravel a number of their design and implementation issues as the root causes of poor experiences. Driven by the findings, we propose to reconsider the collaboration support of cloud storage services from a novel perspective of operations without using any locks. To enable this idea, we design intelligent approaches to the inference and transformation of users’ editing operations, as well as optimizations to the maintenance of files’ historic versions. We build an open-source system UFC2 (User-Friendly Collaborative Cloud) to embody our design, which can avoid most (98%) conflicts with little (2%) time overhead. <br>
 **Link:** [https://www.usenix.org/conference/fast20/presentation/chen](https://www.usenix.org/conference/fast20/presentation/chen) <br> 
-**Presentation Slides:** [pdf]()</details>
+**Presentation Slides:** [pdf](../files/Lock-free.pdf)</details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 19th April 2023, 8:00pm (CST)  
