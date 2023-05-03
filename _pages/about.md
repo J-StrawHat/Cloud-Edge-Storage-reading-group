@@ -14,20 +14,28 @@ title: Cloud-Edge Storage Reading Group
 ### Upcoming Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
-- 3rd May 2023, 8:00pm (CST)  
-Yuhui Chen (XMU) <br>
-**EdgeWise: A Better Stream Processing Engine for the Edge**  <details>**Conference:**  ATC ’19<br>
-**Abstract:** Many Internet of Things (IoT) applications would benefit if streams of data could be analyzed rapidly at the Edge, near the data source. However, existing Stream Processing Engines (SPEs) are unsuited for the Edge because their designs assume Cloud-class resources and relatively generous throughput and latency constraints.<br>This paper presents EdgeWise, a new Edge-friendly SPE, and shows analytically and empirically that EdgeWise improves both throughput and latency. The key idea of EdgeWise is to incorporate a congestion-aware scheduler and a fixed-size worker pool into an SPE. Though this idea has been explored in the past, we are the first to apply it to modern SPEs and we provide a new queue-theoretic analysis to support it. In our single-node and distributed experiments we compare EdgeWise to the state-of-the-art Storm system. We report up to a 3x improvement in throughput while keeping latency low.<br>
-**Link:** [https://www.usenix.org/conference/atc19/presentation/fu](https://www.usenix.org/conference/atc19/presentation/fu) </details>
-
-<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 10th May 2023, 8:00pm (CST)  
 Fang Zou (UESTC) <br>
 **TBD**  <details>**Conference:**  <br>
 **Abstract:** <br>
 **Link:** []() </details>
 
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 17th May 2023, 8:00pm (CST)  
+Wenxi Zhu (XMU) <br>
+**TBD**  <details>**Conference:**  <br>
+**Abstract:** <br>
+**Link:** []() </details>
+
 ### Past Seminars
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 3rd May 2023, 8:00pm (CST)  
+Yuhui Chen (XMU) <br>
+**EdgeWise: A Better Stream Processing Engine for the Edge**  <details>**Conference:**  ATC ’19<br>
+**Abstract:** Many Internet of Things (IoT) applications would benefit if streams of data could be analyzed rapidly at the Edge, near the data source. However, existing Stream Processing Engines (SPEs) are unsuited for the Edge because their designs assume Cloud-class resources and relatively generous throughput and latency constraints.<br>This paper presents EdgeWise, a new Edge-friendly SPE, and shows analytically and empirically that EdgeWise improves both throughput and latency. The key idea of EdgeWise is to incorporate a congestion-aware scheduler and a fixed-size worker pool into an SPE. Though this idea has been explored in the past, we are the first to apply it to modern SPEs and we provide a new queue-theoretic analysis to support it. In our single-node and distributed experiments we compare EdgeWise to the state-of-the-art Storm system. We report up to a 3x improvement in throughput while keeping latency low.<br>
+**Link:** [https://www.usenix.org/conference/atc19/presentation/fu](https://www.usenix.org/conference/atc19/presentation/fu)  <br> 
+**Presentation Slides:** [pdf](../files/ATC'19_EdgeWise_reading.pdf)</details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 26th April 2023, 8:00pm (CST)  
