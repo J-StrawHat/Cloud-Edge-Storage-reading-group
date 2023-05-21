@@ -16,9 +16,9 @@ title: Cloud-Edge Storage Reading Group
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 24th May 2023, 8:00pm (CST)  
 Wenxi Zhu (XMU) <br>
-**TBD**  <details>**Conference:**  <br>
-**Abstract:** <br>
-**Link:** []() </details>
+**Speculative Recovery: Cheap, Highly Available Fault Tolerance with Disaggregated Storage**  <details>**Conference:**  ATC ’19<br>
+**Abstract:** The ubiquity of disaggregated storage in cloud computing has led to a nascent technique for fault tolerance: instead of utilizing application-level replication, newly-launched backup instances recover application state from disaggregated storage (REDS) after a primary's failure. Attractively, REDS provides fault tolerance at a much lower cost than traditional replication schemes, wherein at least two instances are running. Failover in REDS is slow, however, because it sequentially first detects primary failure and only then starts recovery on a backup.<br>We propose speculative recovery to accelerate failover and thus increase the availability of applications using REDS. Instead of proceeding with failover sequentially, speculative recovery safely and efficiently parallelizes detecting primary failure and running recovery on a backup, by employing our new super and collapse primitives for disaggregated storage. Our implementation and evaluation of speculative recovery demonstrate that it considerably reduces failover time.<br>
+**Link:** [https://www.usenix.org/conference/atc22/presentation/li-nanqinqin](https://www.usenix.org/conference/atc22/presentation/li-nanqinqin) </details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 30th May 2023, 8:00pm (CST)  
