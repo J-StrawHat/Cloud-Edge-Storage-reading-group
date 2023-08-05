@@ -14,14 +14,22 @@ title: Cloud-Edge Storage Reading Group
 ### Upcoming Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 9th Aug 2023, 8:00pm (CST)  
+Wenxi Zhu (XMU) <br>
+**FarReach: Write-back Caching in Programmable Switches**  <details>**Conference:**  ATC ’23<br>
+**Abstract:** Skewed write-intensive key-value storage workloads are increasingly observed in modern data centers, yet they also incur server overloads due to load imbalance. Programmable switches provide viable solutions for realizing load-balanced caching on the I/O path, and hence implementing write-back caching in programmable switches is a natural direction to absorb frequent writes for high write performance. However, enabling in-switch write-back caching is non-trivial, as it not only is challenged by the strict programming rules and limited stateful memory of programmable switches, but also necessitates reliable protection against data loss due to switch failures. We propose FarReach, a new caching framework that supports fast, available, and reliable in-switch write-back caching. FarReach carefully co-designs both the control and data planes for cache management in programmable switches, so as to achieve high data-plane performance with lightweight control-plane management. Experiments on a Tofino switch testbed show that FarReach achieves a throughput gain of up to 6.6× over a state-of-the-art in-switch caching approach under skewed write-intensive workloads.<br>
+**Link:** [https://www.usenix.org/conference/atc23/presentation/sheng](https://www.usenix.org/conference/atc23/presentation/sheng)  <br> 
+**Presentation Slides:** [pdf]()</details>
+
+### Past Seminars
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 2nd Aug 2023, 8:00pm (CST)  
 Junhao Li (UESTC) <br>
 **Adaptive Online Cache Capacity Optimization via Lightweight Working Set Size Estimation at Scale**  <details>**Conference:**  ATC ’23<br>
 **Abstract:** Big data applications extensively use cache techniques to accelerate data access. A key challenge for improving cache utilization is provisioning a suitable cache size to fit the dynamic working set size (WSS) and understanding the related item repetition ratio (IRR) of the trace. We propose Cuki, an approximate data structure for efficiently estimating online WSS and IRR for variable-size item access with proven accuracy guarantee. Our solution is cache-friendly, thread-safe, and light-weighted in design. Based on that, we design an adaptive online cache capacity tuning mechanism. Moreover, Cuki can also be adapted to accurately estimate the cache miss ratio curve (MRC) online. We built Cuki as a lightweight plugin of the widely-used distributed file caching system Alluxio. Evaluation results show that Cuki has higher accuracy than four state-of-the-art algorithms by over an order of magnitude and with better stability in performance. The end-to-end data access experiments show that the adaptive cache tuning framework using Cuki reduces the table querying latency by 79% and improves the file reading throughput by 29% on average. Compared with the cutting-edge MRC approach, Cuki uses less memory and improves accuracy by around 73% on average. Cuki is deployed on one of the world’s largest social platforms to run the Presto query workloads.<br>
 **Link:** [https://www.usenix.org/conference/atc23/presentation/gu](https://www.usenix.org/conference/atc23/presentation/gu)  <br> 
 **Presentation Slides:** [pdf]()</details>
-
-### Past Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 24th May 2023, 8:00pm (CST)  
