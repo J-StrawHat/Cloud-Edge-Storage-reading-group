@@ -13,15 +13,32 @@ title: Cloud-Edge Storage Reading Group
 
 ### Upcoming Seminars
 
+
+### Past Seminars
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 16th Aug 2023, 8:00pm (CST)  
+Yuhui Chen (XMU) <br>
+**Sponge: Fast Reactive Scaling for Stream Processing with Serverless Frameworks**  <details>**Conference:**  ATC ’23<br>
+**Abstract:** Streaming workloads deal with data that is generated in real-time. This data is often unpredictable and changes rapidly in volume. To deal with these fluctuations, current systems aim to dynamically scale in and out, redistribute, and migrate computing tasks across a cluster of machines. While many prior works have focused on reducing the overhead of system reconfiguration and state migration on pre-allocated cluster resources, these approaches still face significant challenges in meeting latency SLOs at low operational costs, especially upon facing unpredictable bursty loads.<br>In this paper, we propose Sponge, a new stream processing system that enables fast reactive scaling of long-running stream queries by leveraging serverless framework (SF) instances. Sponge absorbs sudden, unpredictable increases in input loads from existing VMs with low latency and cost by taking advantage of the fact that SF instances can be initiated quickly, in just a few hundred milliseconds. Sponge efficiently tracks a small number of metrics to quickly detect bursty loads and make fast scaling decisions based on these metrics. Moreover, by incorporating optimization logic at compile-time and triggering fast data redirection and partial-state merging mechanisms at runtime, Sponge avoids optimization and state migration overheads during runtime while efficiently offloading bursty loads from existing VMs to new SF instances. Our evaluation on AWS EC2 and Lambda using the NEXMark benchmark shows that Sponge promptly reacts to bursty input loads, reducing 99th-percentile tail latencies by 88% on average compared to other stream query scaling methods on VMs. Sponge also reduces cost by 83% compared to methods that over-provision VMs to handle unpredictable bursty loads.<br>
+**Link:** [https://www.usenix.org/conference/atc23/presentation/song](https://www.usenix.org/conference/atc23/presentation/song)  <br> 
+**Presentation Slides:** [pdf](../files/20230823_reading_ATC'23_Sponge.pdf)</details>
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 23nd Aug 2023, 8:00pm (CST)  
+Jia Zhang (UESTC) <br>
+**On-demand Container Loading in AWS Lambda**  <details>**Conference:**  ATC ’23<br>
+**Abstract:** AWS Lambda is a serverless event-driven compute service, part of a category of cloud compute offerings sometimes called Function-as-a-service (FaaS). When we first released AWS Lambda, functions were limited to 250MB of code and dependencies, packaged as a simple compressed archive. In 2020, we released support for deploying container images as large as 10GiB as Lambda functions, allowing customers to bring much larger code bases and sets of dependencies to Lambda. Supporting larger packages, while still meeting Lambda’s goals of rapid scale (adding up to 15,000 new containers per second for a single customer, and much more in aggregate), high request rate (millions of requests per second), high scale (millions of unique workloads), and low start-up times (as low as 50ms) presented a significant challenge.<br>We describe the storage and caching system we built, optimized for delivering container images on-demand, and our experiences designing, building, and operating it at scale. We focus on challenges around security, efficiency, latency, and cost, and how we addressed these challenges in a system that combines caching, deduplication, convergent encryption, erasure coding, and block-level demand loading.<br>Since building this system, it has reliably processed hundreds of trillions of Lambda invocations for over a million AWS customers, and has shown excellent resilience to load and infrastructure failures.<br>
+**Link:** [https://www.usenix.org/conference/atc23/presentation/brooker](https://www.usenix.org/conference/atc23/presentation/brooker)  <br> 
+**Presentation Slides:** [pdf](../files/aws-lambda.pdf)</details>
+
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 16th Aug 2023, 8:00pm (CST)  
 Jia Zhang (UESTC) <br>
 **On-demand Container Loading in AWS Lambda**  <details>**Conference:**  ATC ’23<br>
 **Abstract:** AWS Lambda is a serverless event-driven compute service, part of a category of cloud compute offerings sometimes called Function-as-a-service (FaaS). When we first released AWS Lambda, functions were limited to 250MB of code and dependencies, packaged as a simple compressed archive. In 2020, we released support for deploying container images as large as 10GiB as Lambda functions, allowing customers to bring much larger code bases and sets of dependencies to Lambda. Supporting larger packages, while still meeting Lambda’s goals of rapid scale (adding up to 15,000 new containers per second for a single customer, and much more in aggregate), high request rate (millions of requests per second), high scale (millions of unique workloads), and low start-up times (as low as 50ms) presented a significant challenge.<br>We describe the storage and caching system we built, optimized for delivering container images on-demand, and our experiences designing, building, and operating it at scale. We focus on challenges around security, efficiency, latency, and cost, and how we addressed these challenges in a system that combines caching, deduplication, convergent encryption, erasure coding, and block-level demand loading.<br>Since building this system, it has reliably processed hundreds of trillions of Lambda invocations for over a million AWS customers, and has shown excellent resilience to load and infrastructure failures.<br>
 **Link:** [https://www.usenix.org/conference/atc23/presentation/brooker](https://www.usenix.org/conference/atc23/presentation/brooker)  <br> 
-**Presentation Slides:** [pdf]()</details>
-
-### Past Seminars
+**Presentation Slides:** [pdf](../files/aws-lambda.pdf)</details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 9th Aug 2023, 8:00pm (CST)  
