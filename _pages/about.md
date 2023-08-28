@@ -13,6 +13,13 @@ title: Cloud-Edge Storage Reading Group
 
 ### Upcoming Seminars
 
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 30th Aug 2023, 8:00pm (CST)  
+Jun Wu (UESTC) <br>
+**Revisiting Secondary Indexing in LSM-based Storage Systems with Persistent Memory**  <details>**Conference:**  ATC ’23<br>
+**Abstract:** LSM-based storage systems are widely used for superior write performance on block devices. However, they currently fail to efficiently support secondary indexing, since a secondary index query operation usually needs to retrieve multiple small values, which scatter in multiple LSM components. In this work, we revisit secondary indexing in LSM-based storage systems with byte-addressable persistent memory (PM). Existing PM-based indexes are not directly competent for efficient secondary indexing. We propose PERSEID, an efficient PMbased secondary indexing mechanism for LSM-based storage systems, which takes into account both characteristics of PM and secondary indexing. PERSEID consists of (1) a specifically designed secondary index structure that achieves highperformance insertion and query, (2) a lightweight hybrid PM-DRAM and hash-based validation approach to filter out obsolete values with subtle overhead, and (3) two adapted optimizations on primary table searching issued from secondary indexes to accelerate non-index-only queries. Our evaluation shows that PERSEID outperforms existing PM-based indexes by 3-7× and achieves about two orders of magnitude performance of state-of-the-art LSM-based secondary indexing techniques even if on PM instead of disks.<br>
+**Link:** [https://www.usenix.org/conference/atc23/presentation/wang-jing](https://www.usenix.org/conference/atc23/presentation/wang-jing)  <br> 
+**Presentation Slides:** [pdf]()</details>
 
 ### Past Seminars
 
@@ -26,14 +33,6 @@ Yuhui Chen (XMU) <br>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 23nd Aug 2023, 8:00pm (CST)  
-Jia Zhang (UESTC) <br>
-**On-demand Container Loading in AWS Lambda**  <details>**Conference:**  ATC ’23<br>
-**Abstract:** AWS Lambda is a serverless event-driven compute service, part of a category of cloud compute offerings sometimes called Function-as-a-service (FaaS). When we first released AWS Lambda, functions were limited to 250MB of code and dependencies, packaged as a simple compressed archive. In 2020, we released support for deploying container images as large as 10GiB as Lambda functions, allowing customers to bring much larger code bases and sets of dependencies to Lambda. Supporting larger packages, while still meeting Lambda’s goals of rapid scale (adding up to 15,000 new containers per second for a single customer, and much more in aggregate), high request rate (millions of requests per second), high scale (millions of unique workloads), and low start-up times (as low as 50ms) presented a significant challenge.<br>We describe the storage and caching system we built, optimized for delivering container images on-demand, and our experiences designing, building, and operating it at scale. We focus on challenges around security, efficiency, latency, and cost, and how we addressed these challenges in a system that combines caching, deduplication, convergent encryption, erasure coding, and block-level demand loading.<br>Since building this system, it has reliably processed hundreds of trillions of Lambda invocations for over a million AWS customers, and has shown excellent resilience to load and infrastructure failures.<br>
-**Link:** [https://www.usenix.org/conference/atc23/presentation/brooker](https://www.usenix.org/conference/atc23/presentation/brooker)  <br> 
-**Presentation Slides:** [pdf](../files/aws-lambda.pdf)</details>
-
-<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
-- 16th Aug 2023, 8:00pm (CST)  
 Jia Zhang (UESTC) <br>
 **On-demand Container Loading in AWS Lambda**  <details>**Conference:**  ATC ’23<br>
 **Abstract:** AWS Lambda is a serverless event-driven compute service, part of a category of cloud compute offerings sometimes called Function-as-a-service (FaaS). When we first released AWS Lambda, functions were limited to 250MB of code and dependencies, packaged as a simple compressed archive. In 2020, we released support for deploying container images as large as 10GiB as Lambda functions, allowing customers to bring much larger code bases and sets of dependencies to Lambda. Supporting larger packages, while still meeting Lambda’s goals of rapid scale (adding up to 15,000 new containers per second for a single customer, and much more in aggregate), high request rate (millions of requests per second), high scale (millions of unique workloads), and low start-up times (as low as 50ms) presented a significant challenge.<br>We describe the storage and caching system we built, optimized for delivering container images on-demand, and our experiences designing, building, and operating it at scale. We focus on challenges around security, efficiency, latency, and cost, and how we addressed these challenges in a system that combines caching, deduplication, convergent encryption, erasure coding, and block-level demand loading.<br>Since building this system, it has reliably processed hundreds of trillions of Lambda invocations for over a million AWS customers, and has shown excellent resilience to load and infrastructure failures.<br>
