@@ -14,14 +14,22 @@ title: Cloud-Edge Storage Reading Group
 ### Upcoming Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 6th Sep 2023, 8:00pm (CST)  
+Fang Zou (UESTC) <br>
+**Portunus: Re-imagining Access Control in Distributed Systems**  <details>**Conference:**  ATC ’23<br>
+**Abstract:** TLS termination, which is essential to network and security infrastructure providers, is an extremely latency-sensitive operation that benefits from access to sensitive key material close to the edge. However, increasing regulatory concerns prompt customers to demand sophisticated controls on where their keys may be accessed. While traditional access-control solutions rely on a highly-available centralized process to enforce access, the round-trip latency and decreased fault tolerance make this approach unappealing. Furthermore, the desired level of customer control is at odds with the homogeneity of the distribution process for each key.<br>To solve this dilemma, we have designed and implemented Portunus, a cryptographic storage and access control system built using a variant of public-key cryptography called attribute-based encryption (ABE). Using Portunus, TLS keys are protected using ABE under a policy chosen by the customer. Each server is issued unique ABE keys based on its attributes, allowing it to decrypt only the TLS keys for which it satisfies the policy. Thus, the encrypted keys can be stored at the edge, with access control enforced passively through ABE. If a server receives a TLS connection but is not authorized to decrypt the necessary TLS key, the request is forwarded directly to the nearest authorized server, further avoiding the need for a centralized coordinator. In comparison, a trivial instantiation of this system using standard public-key cryptography might wrap each TLS key with the key of every authorized data center. This strategy, however, multiplies the storage overhead by the number of data centers. Deployed across Cloudflare's 400+ global data centers, Portunus handles millions of requests per second globally, making it one of the largest deployments of ABE.<br>
+**Link:** [https://www.usenix.org/conference/atc23/presentation/ladd](https://www.usenix.org/conference/atc23/presentation/ladd)  <br> 
+**Presentation Slides:** [pdf]()</details>
+
+### Past Seminars
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 30th Aug 2023, 8:00pm (CST)  
 Jun Wu (UESTC) <br>
 **Revisiting Secondary Indexing in LSM-based Storage Systems with Persistent Memory**  <details>**Conference:**  ATC ’23<br>
 **Abstract:** LSM-based storage systems are widely used for superior write performance on block devices. However, they currently fail to efficiently support secondary indexing, since a secondary index query operation usually needs to retrieve multiple small values, which scatter in multiple LSM components. In this work, we revisit secondary indexing in LSM-based storage systems with byte-addressable persistent memory (PM). Existing PM-based indexes are not directly competent for efficient secondary indexing. We propose PERSEID, an efficient PMbased secondary indexing mechanism for LSM-based storage systems, which takes into account both characteristics of PM and secondary indexing. PERSEID consists of (1) a specifically designed secondary index structure that achieves highperformance insertion and query, (2) a lightweight hybrid PM-DRAM and hash-based validation approach to filter out obsolete values with subtle overhead, and (3) two adapted optimizations on primary table searching issued from secondary indexes to accelerate non-index-only queries. Our evaluation shows that PERSEID outperforms existing PM-based indexes by 3-7× and achieves about two orders of magnitude performance of state-of-the-art LSM-based secondary indexing techniques even if on PM instead of disks.<br>
 **Link:** [https://www.usenix.org/conference/atc23/presentation/wang-jing](https://www.usenix.org/conference/atc23/presentation/wang-jing)  <br> 
 **Presentation Slides:** [pdf]()</details>
-
-### Past Seminars
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 16th Aug 2023, 8:00pm (CST)  
