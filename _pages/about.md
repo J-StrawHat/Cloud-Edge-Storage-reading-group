@@ -13,15 +13,17 @@ title: Cloud-Edge Storage Reading Group
 
 ### Upcoming Seminars
 
+
+
+### Past Seminars
+
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 27th Sep 2023, 8:00pm (CST)  
 Wenxi Zhu (XMU) <br>
 **Oakestra: A Lightweight Hierarchical Orchestration Framework for Edge Computing**  <details>**Conference:**  ATC ’23<br>
 **Abstract:** Edge computing seeks to enable applications with strict latency requirements by utilizing resources deployed in diverse, dynamic, and possibly constrained environments closer to the users. Existing state-of-the-art orchestration frameworks (e.g. Kubernetes) perform poorly at the edge since they were designed for reliable, low latency, high bandwidth cloud environments. We present Oakestra, a hierarchical, lightweight, flexible, and scalable orchestration framework for edge computing. Through its novel federated three-tier resource management, delegated task scheduling, and semantic overlay networking, Oakestra can flexibly consolidate multiple infrastructure providers and support applications over dynamic variations at the edge. Our comprehensive evaluation against the state-of-the-art demonstrates the significant benefits of Oakestra as it achieves approximately tenfold reduction in resource usage through reduced management overhead and 10% application performance improvement due to lightweight operation over constrained hardware.<br>
 **Link:** [https://www.usenix.org/conference/atc23/presentation/bartolomeo](https://www.usenix.org/conference/atc23/presentation/bartolomeo)  <br> 
-**Presentation Slides:** [pdf]()</details>
-
-### Past Seminars
+**Presentation Slides:** [pdf](../files/Oakestra.pdf)</details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 13rd Sep 2023, 8:00pm (CST)  
