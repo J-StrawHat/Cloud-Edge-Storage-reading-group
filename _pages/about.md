@@ -16,6 +16,13 @@ title: Cloud-Edge Storage Reading Group
 
 
 ### Past Seminars
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 18th Oct 2023, 8:00pm (CST)  
+Jun Wu (UESTC) <br>
+**ROLEX: A Scalable RDMA-oriented Learned Key-Value Store for Disaggregated Memory Systems**  <details>**Conference:**  FAST ’23<br>
+**Abstract:** Disaggregated memory systems separate monolithic servers into different components, including compute and memory nodes, to enjoy the benefits of high resource utilization, flexible hardware scalability, and efficient data sharing. By exploiting the high-performance RDMA (Remote Direct Memory Access), the compute nodes directly access the remote memory pool without involving remote CPUs. Hence, the ordered key-value (KV) stores (e.g., B-trees and learned indexes) keep all data sorted to provide rang query service via the high-performance network. However, existing ordered KVs fail to work well on the disaggregated memory systems, due to either consuming multiple network roundtrips to search the remote data or heavily relying on the memory nodes equipped with insufficient computing resources to process data modifications. In this paper, we propose a scalable RDMA-oriented KV store with learned indexes, called ROLEX, to coalesce the ordered KV store in the disaggregated systems for efficient data storage and retrieval. ROLEX leverages a retraining-decoupled learned index scheme to dissociate the model retraining from data modification operations via adding a bias and some data-movement constraints to learned models. Based on the operation decoupling, data modifications are directly executed in compute nodes via one-sided RDMA verbs with high scalability. The model retraining is hence removed from the critical path of data modification and asynchronously executed in memory nodes by using dedicated computing resources. Our experimental results on YCSB and real-world workloads demonstrate that ROLEX achieves competitive performance on the static workloads, as well as significantly improving the performance on dynamic workloads by up to 2.2 times than state-of-the-art schemes on the disaggregated memory systems. We have released the open-source codes for public use in GitHub.<br>
+**Link:** [https://www.usenix.org/conference/fast23/presentation/li-pengfei](https://www.usenix.org/conference/fast23/presentation/li-pengfei)  <br> 
+**Presentation Slides:** [pdf]()</details>
 
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 27th Sep 2023, 8:00pm (CST)  
