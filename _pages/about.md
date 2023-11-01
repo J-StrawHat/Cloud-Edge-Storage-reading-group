@@ -17,6 +17,14 @@ title: Cloud-Edge Storage Reading Group
 
 ### Past Seminars
 <span src="" style="float:right;width:100px;height:100px;margin-top:00px">
+- 1st Nov 2023, 8:00pm (CST)  
+Yuhui Chen (XMU) <br>
+**Calcspar: A Contract-Aware LSM Store for Cloud Storage with Low Latency Spikes**  <details>**Conference:**  ATC ’23<br>
+**Abstract:** Cloud storage is gaining popularity because of features such as pay-as-you-go that significantly reduces storage costs. However, the community has not sufficiently explored its contract model and latency characteristics. As LSM-Tree-based key-value stores (LSM stores) become the building block for numerous cloud applications, how cloud storage would impact the performance of key-value accesses is vital. This study reveals the significant latency variances of Amazon Elastic Block Store (EBS) under various I/O pressures, which challenges LSM store read performance on cloud storage. To reduce the corresponding tail latency, we propose Calcspar, a contract-aware LSM store for cloud storage, which efficiently addresses the challenges by regulating the rate of I/O requests to cloud storage and absorbing surplus I/O requests with the data cache. We specifically developed a fluctuation-aware cache to lower the high latency brought on by workload fluctuations. Additionally, we build a congestion-aware IOPS allocator to reduce the impact of LSM store internal operations on read latency. We evaluated Calcspar on EBS with different real-world workloads and compared it to the cutting-edge LSM stores. The results show that Calcspar can significantly reduce tail latency while maintaining regular read and write performance, keeping the 99th percentile latency under 550μs and reducing average latency by 66%.<br>
+**Link:** [https://www.usenix.org/conference/atc23/presentation/zhou](https://www.usenix.org/conference/atc23/presentation/zhou)  <br> 
+**Presentation Slides:** [pdf](../files/20231101_reading_ATC'23_Calcspar.pdf)</details>
+
+<span src="" style="float:right;width:100px;height:100px;margin-top:00px">
 - 18th Oct 2023, 8:00pm (CST)  
 Jun Wu (UESTC) <br>
 **ROLEX: A Scalable RDMA-oriented Learned Key-Value Store for Disaggregated Memory Systems**  <details>**Conference:**  FAST ’23<br>
